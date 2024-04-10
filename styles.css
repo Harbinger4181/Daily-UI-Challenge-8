@@ -1,0 +1,58 @@
+#error-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.floor{
+    font-size: 0;
+}
+
+.brick-floor{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.error404{
+    height: 40px;
+    margin: 30px;
+
+}
+
+.mario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.logo{
+    font-size: large;
+}
+
+*{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
